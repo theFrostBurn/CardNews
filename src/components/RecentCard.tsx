@@ -1,4 +1,5 @@
 import { FC } from 'react'
+import Image from 'next/image'
 
 interface Post {
   title: string
@@ -17,9 +18,11 @@ const RecentCard: FC<RecentCardProps> = ({ post }) => {
   return (
     <article className="bg-white rounded-lg overflow-hidden shadow-lg">
       <div className="relative">
-        <img
+        <Image
           src={post.imageUrl}
           alt={post.title}
+          width={800}
+          height={400}
           className="w-full h-48 object-cover"
         />
         <span className={`category-tag category-${post.category} absolute top-4 left-4`}>
@@ -32,9 +35,11 @@ const RecentCard: FC<RecentCardProps> = ({ post }) => {
         <p className="text-gray-600 text-sm mb-4">{post.content}</p>
         
         <div className="flex items-center">
-          <img
+          <Image
             src={`/images/authors/${post.author.toLowerCase().replace(' ', '-')}.jpg`}
             alt={post.author}
+            width={32}
+            height={32}
             className="w-8 h-8 rounded-full mr-3"
           />
           <div>

@@ -6,8 +6,6 @@ import CategoryNav from '@/components/CategoryNav'
 import RecentCard from '@/components/RecentCard'
 
 export default function Home() {
-  const [currentSlide, setCurrentSlide] = useState(0)
-  
   const featuredPosts = [
     {
       title: "The Road Ahead",
