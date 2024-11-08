@@ -8,7 +8,7 @@ export default function Home() {
   const featuredPosts = [
     {
       title: "The Road Ahead",
-      content: "The road ahead might be perilous - it might not be.",
+      content: "앞으로의 여정이 어떨지 모르지만, 그 불확실함이 주는 설렘이 있습니다.",
       imageUrl: "/images/northern-lights.jpg",
       category: "photography",
       author: "Matt Vogels",
@@ -16,7 +16,7 @@ export default function Home() {
     },
     {
       title: "From Top Down",
-      content: "Once a year, go someplace you've never been before.",
+      content: "일 년에 한 번, 새로운 발걸음을 내딛는 순간이 우리를 더 풍성하게 만듭니다.",
       imageUrl: "/images/lanterns.jpg",
       category: "adventure",
       author: "William Wong",
