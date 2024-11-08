@@ -1,6 +1,5 @@
 'use client'
 
-import { useState } from 'react'
 import CardNews from '@/components/CardNews'
 import CategoryNav from '@/components/CategoryNav'
 import RecentCard from '@/components/RecentCard'
