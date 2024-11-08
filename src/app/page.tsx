@@ -58,7 +58,7 @@ export default function Home() {
     <>
       <section className="hero-section flex flex-col items-center justify-center text-center text-white p-8">
         <h1 className="text-5xl font-bold mb-4">Let's do it together.</h1>
-        <p className="text-xl mb-8">당신의 발자국이 새로운 이야기가 되는 곳, 우리와 함께 세상을 느껴보세요.</p>
+        <p className="text-xl mb-8">당신의 발자국이 새로운 이야기가 되는 곳, 함께 세상을 느껴보세요.</p>
         <button className="bg-primary hover:bg-primary-dark text-white font-bold py-3 px-6 rounded">
           View Latest Posts
         </button>
@@ -81,7 +81,7 @@ export default function Home() {
         </section>
 
         <section>
-          <h2 className="text-2xl font-bold mb-8">Most Recent</h2>
+          <h2 className="text-2xl font-bold mb-8">Recent Favorites</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {recentPosts.map((post, index) => (
               <RecentCard 
